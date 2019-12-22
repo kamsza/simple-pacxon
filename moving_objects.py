@@ -8,8 +8,8 @@ class MovingObject():
         self.height = tilemap.tile_size
         self.img = pygame.image.load('images/yellow_dot.png')
         self.img_width, self.img_height = self.img.get_rect().size
-        self.x = tilemap.tile_size * 5
-        self.y = tilemap.tile_size * 5
+        self.x = tilemap.tile_size * 17
+        self.y = tilemap.tile_size * 17
         self.x_vec = 0
         self.y_vec = 0
         self.speed = 4
